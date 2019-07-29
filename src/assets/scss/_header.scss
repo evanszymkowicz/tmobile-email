@@ -1,3 +1,6 @@
-.text-left {
-  align-items: left;
+.header {
+	padding-top: 10px;
+	.text-left {
+		color: $black;
+	}
 }

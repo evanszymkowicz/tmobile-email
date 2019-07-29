@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+
+@import 'reset';
 @import 'settings';
 @import 'foundation-emails';
 
 @import 'header';
-@import 'main';
+@import 'heroimage';
+@import 'moremoney';
+@import 'getstarted';
 @import 'privacy';
 @import 'footer';

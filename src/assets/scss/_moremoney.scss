@@ -1,0 +1,32 @@
+.more-money {
+	background-color: $white;
+}
+
+.more-interest {
+	h2 {
+		color: $primary-color;
+		text-align: center;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	p {
+	 color: $black;
+	 text-align: center;
+	}
+}
+
+.bottom-fees {
+	background-color: $secondary-color;
+}
+
+.background-color {
+		background: $light-gray;
+}
+
+.custom-btn {
+	align-items: left;
+}
+
+.fees-image {
+	align-items: right;
+}
