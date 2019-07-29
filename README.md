@@ -1,4 +1,4 @@
 # tmobile-email
 
-!(src/assets/img/1.png)
-!(src/assets/img/2.png)
+![1](src/assets/img/1.png)
+![2](src/assets/img/2.png)
