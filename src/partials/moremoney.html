@@ -2,7 +2,7 @@
 	<row class="more-interest">
 		<columns>
 			<h2>More interest = more MONEY</h2>
-			<p>Everyone earns 1.00% APY* on all balances. <span class="text-nowrap">T-Mobile</span> wireless customers with qualifying service can earn 4.00% APY* on balances up to $3,000 and 1.00% APY after that in their <span class="text-nowrap">T-Mobile</span>
+			<p>Everyone earns {{tmobileData.dataPoints.APY}}% APY* on all balances. <span class="text-nowrap">T-Mobile</span> wireless customers with qualifying service can earn {{tmobileData.dataPoints.qualifyingAPY}}% APY* on balances up to ${{tmobileData.dataPoints.cashBack}} and {{tmobileData.datapoints.afterAPY}}% APY after that in their <span class="text-nowrap">T-Mobile</span>
 				MONEY checking account by depositing at least $200/month and registering for perks.
 			</p>
 			<p>
@@ -14,17 +14,15 @@
 <spacer size="20"></spacer>
 <row>
 	<center>
-		<img src="{{ root }}/assets/img/bargraph.png" />
+		<img src="{{tmobileData.dataPoints.image}}" />
 	</center>
 </row>
 
 
 <spacer size="20"></spacer>
-
 	<center>
-		<button href="https://www.t-mobilemoney.com/en/perks/interest.html" class="button">See how it works</button>
+		<button><a href="{{tmobileData.dataPoints.link}}" class="button">See how it works</button>
 	</center>
-	</columns>
 </container>
 
 <container>
@@ -45,7 +43,7 @@
 			</columns>
 			<columns large="5">
 				<spacer size="15"></spacer>
-				<img src="{{ root}}/assets/img/home-fees-image.png" alt="" />
+				<img src="https://i.imgur.com/64OwOyZ.png" alt="" />
 			</columns>
 			<spacer size="20"></spacer>
 

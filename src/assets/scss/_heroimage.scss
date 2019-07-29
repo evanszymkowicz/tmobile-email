@@ -1,6 +1,14 @@
 .heroimage {
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background-size: cover;
-	height: 70vh;
+	.wrapper-inner {
+  padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 20px;
+
+}
 	h1 {
 		padding-top: 10px;
 		color: $white;

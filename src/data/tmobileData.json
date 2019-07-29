@@ -1,0 +1,17 @@
+{
+  "title": "not another bank",
+  "offerDetails": {
+    "percent": "4.00",
+    "ATMs": "55,000",
+    "link": "https://join.t-mobilemoney.com/#!/customertype"
+  },
+  "title": "more",
+  "dataPoints": {
+    "APY": "1.00",
+    "qualifyingAPY": "4.00",
+    "cashBack": "3,000",
+    "afterAPY": "1.00",
+    "image": "https://i.imgur.com/ECTCIAt.png",
+    "link": "https://www.t-mobilemoney.com/en/perks/interest.html"
+  }
+}
